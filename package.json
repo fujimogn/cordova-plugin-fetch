@@ -13,7 +13,8 @@
   "cordova": {
     "id": "phonegap-plugin-fetch",
     "platforms": [
-      "ios"
+      "ios",
+      "android"
     ]
   },
   "keywords": [
@@ -24,7 +25,7 @@
   "engines": [
     {
       "name": "cordova",
-      "version": ">=3.0.0"
+      "version": ">=6.2.0"
     }
   ],
   "author": "Adar Porat",
