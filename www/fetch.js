@@ -307,7 +307,7 @@
           return
         }
 
-          resolve(options);
+          resolve(response);
       }, function(response) {
         reject(new TypeError('Network request failed'))
 
