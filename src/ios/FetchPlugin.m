@@ -47,7 +47,7 @@
       [result setObject:response.URL.absoluteString forKey:@"url"];
     }
 
-    if(responseObject != nil && [responseObject isKindOfClass:[NSData class]]) {
+    if (responseObject != nil && [responseObject isKindOfClass:[NSData class]]) {
       [result setObject:[[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding] forKey:@"body"];
     }
 
